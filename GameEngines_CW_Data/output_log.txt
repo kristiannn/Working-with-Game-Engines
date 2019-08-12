@@ -1,0 +1,145 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 670 (ID=0x1189)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   26.21.14.3086
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.202 seconds
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.232400 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3528 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.257400 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 468.
+Total: 0.275900 ms (FindLiveObjects: 0.024800 ms CreateObjectMapping: 0.016800 ms MarkObjects: 0.229100 ms  DeleteObjects: 0.004600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.773700 ms
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 336.
+Total: 0.311500 ms (FindLiveObjects: 0.018800 ms CreateObjectMapping: 0.014500 ms MarkObjects: 0.160500 ms  DeleteObjects: 0.117100 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.541600 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 402.
+Total: 0.361900 ms (FindLiveObjects: 0.052900 ms CreateObjectMapping: 0.026000 ms MarkObjects: 0.277200 ms  DeleteObjects: 0.005000 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.Component.GetComponent[AudioSource] () [0x00000] in <filename unknown>:0 
+  at AudioManager.PlaySound (Int32 blockType) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) VoxelChunk/EventBlockChangedWithType:invoke_void__this___int (int)
+  at VoxelChunk.SetBlock (Vector3 index, Int32 blockType) [0x00000] in <filename unknown>:0 
+  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.Component.GetComponent[AudioSource] () [0x00000] in <filename unknown>:0 
+  at AudioManager.PlaySound (Int32 blockType) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) VoxelChunk/EventBlockChangedWithType:invoke_void__this___int (int)
+  at VoxelChunk.SetBlock (Vector3 index, Int32 blockType) [0x00000] in <filename unknown>:0 
+  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.Component.GetComponent[AudioSource] () [0x00000] in <filename unknown>:0 
+  at AudioManager.PlaySound (Int32 blockType) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) VoxelChunk/EventBlockChangedWithType:invoke_void__this___int (int)
+  at VoxelChunk.SetBlock (Vector3 index, Int32 blockType) [0x00000] in <filename unknown>:0 
+  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.Component.GetComponent[AudioSource] () [0x00000] in <filename unknown>:0 
+  at AudioManager.PlaySound (Int32 blockType) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) VoxelChunk/EventBlockChangedWithType:invoke_void__this___int (int)
+  at VoxelChunk.SetBlock (Vector3 index, Int32 blockType) [0x00000] in <filename unknown>:0 
+  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.Component.GetComponent[AudioSource] () [0x00000] in <filename unknown>:0 
+  at AudioManager.PlaySound (Int32 blockType) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) VoxelChunk/EventBlockChangedWithType:invoke_void__this___int (int)
+  at VoxelChunk.SetBlock (Vector3 index, Int32 blockType) [0x00000] in <filename unknown>:0 
+  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Platform assembly: D:\Uni\Year 2\GameEngines_CW\GameEngines_CW_Data\Managed\System.Xml.dll (this message is harmless)
+Start = (1.0, 4.0, 4.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End = (8.0, 4.0, 5.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start = (1.0, 4.0, 4.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End = (8.0, 4.0, 5.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.388400 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 338.
+Total: 0.279300 ms (FindLiveObjects: 0.019800 ms CreateObjectMapping: 0.014300 ms MarkObjects: 0.202200 ms  DeleteObjects: 0.042500 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.309500 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 365.
+Total: 0.455800 ms (FindLiveObjects: 0.031100 ms CreateObjectMapping: 0.038900 ms MarkObjects: 0.377300 ms  DeleteObjects: 0.007900 ms)
+
+Server Initialized
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Here
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.316700 ms
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 338.
+Total: 0.607000 ms (FindLiveObjects: 0.042800 ms CreateObjectMapping: 0.046100 ms MarkObjects: 0.438800 ms  DeleteObjects: 0.078500 ms)
+
